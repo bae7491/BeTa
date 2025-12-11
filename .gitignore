@@ -1,0 +1,17 @@
+.venv
+myvenv
+__pycache__
+
+# 환경 변수 파일
+.env
+
+# 토큰 숨김 처리를 위해 제외
+beta.py
+beta_test.py
+
+# 미완성 기능 제외
+LOLInfo.py
+/Cogs/Bus.py
+
+# 원본 메이플 파티 JSON
+maple_party_data.json
