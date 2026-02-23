@@ -32,7 +32,7 @@ class SimpleCmd(commands.Cog, name="간단한 커맨드"):
         embed = discord.Embed(color=0xFFFFFF)
         embed.set_image(
             # 베타 이미지 URL
-            url=os.getenv("HELLO_CHRISTMAS_BETA_IMAGE_URL")
+            url=os.getenv("HELLO_SPRING_BETA_IMAGE_URL")
         )
         await interaction.response.send_message(embed=embed)
 
