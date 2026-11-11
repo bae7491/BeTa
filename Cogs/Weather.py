@@ -25,7 +25,7 @@ KAKAO_OPEN_API_KEY = os.getenv("KAKAO_OPEN_API_KEY")
 kakao_headers = {"Authorization": f"KakaoAK {KAKAO_OPEN_API_KEY}"}
 
 # 2. OpenWeatherMap API Key
-weather_api_key = os.getenv("OPEN_WEATHER_MAP_OPEN_API_KEY")
+WEATHER_API_KEY = os.getenv("OPEN_WEATHER_MAP_OPEN_API_KEY")
 # ================
 
 
@@ -54,7 +54,7 @@ def get_weather(lat, lng):
     params = {
         "lat": lat,
         "lon": lng,
-        "appid": weather_api_key,
+        "appid": WEATHER_API_KEY,
         "lang": "kr",
         "units": "metric",
     }
